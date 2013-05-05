@@ -1,14 +1,13 @@
 <?php
+	ini_set('display_errors','On');
 
 	echo "testing ..testing.. 1...2...3...4<br/>";
 
 	require_once('manage.php');
 
-		$m = new manage(23);
+		$m = new manage("hey, there...");
 
-		echo "new manage: ".$m ."<br/>";
+		echo "new manage: <br/>";
 
-		$m->deleteEntry();
+		$m->doSomething("great googamooga!");
 
-
-?>

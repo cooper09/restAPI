@@ -4,12 +4,12 @@ class manage {
 
    function __construct($entryId) {
         $this->entryId = $entryId;
-        echo "enteryId: ".$this."<br/>";
+        echo "This entry: " . $this->entryId ."<br/>";
     }    
 
-    function deleteEntry() {
+    function doSomething($withThis) {
         //delete $this->entryId from database
-        echo "manage - deleting entry...<br/>";
+        echo "manage - doSomething function: ".$withThis. "<br/>";
     }
 }
 
