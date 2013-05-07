@@ -1,13 +1,9 @@
 <?php
-    ini_set('display_errors','On');
-
-    echo "peurow";
-
 public static function processRequest()  
 {  
     // get our verb  
-   //$request_method = strtolower($_SERVER['REQUEST_METHOD']);  
- /*   $return_obj     = new RestRequest();  
+    $request_method = strtolower($_SERVER['REQUEST_METHOD']);  
+  /*  $return_obj     = new RestRequest();  
     // we'll store our data here  
     $data           = array();  
   
